@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Achievement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .certificate {
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .decor-top-right,
+        .decor-bottom-left {
+            position: absolute;
+            z-index: -1;
+            background-color: #df4091e6; /* Customize the colors */
+        }
+
+        .decor-top-right {
+            top: -50px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+        }
+
+        .decor-bottom-left {
+            bottom: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+        }
+
+        .certificate-header,
+        .certificate-body,
+        .certificate-footer {
+            padding: 20px;
+        }
+
+        .certificate-header {
+            text-align: center;
+        }
+
+        .certificate-body {
+            text-align: center;
+        }
+
+        .recipient-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .certificate-footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <div class="decor-top-right"></div>
+        <div class="decor-bottom-left"></div>
+
+        <div class="certificate-header">
+            <!-- Your logo or organization name here -->
+        </div>
+
+        <div class="certificate-body">
+            <h1>Certificate of Achievement</h1>
+            <p>Proudly Presented to:</p>
+            <div class="recipient-name">Name Surname</div>
+            <!-- Customize additional content here -->
+        </div>
+
+        <div class="certificate-footer">
+            <p>Date: 26-01-2024</p>
+            <p>Signature</p>
+        </div>
+    </div>
+</body>
+</html>
