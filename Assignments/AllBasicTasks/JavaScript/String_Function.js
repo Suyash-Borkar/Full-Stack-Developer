@@ -1,4 +1,4 @@
-let X = "String and It's Methods!!"
+let X = "String and Methods!!"
 
 let str = "Hello from the JavaScript world!";
 let Firstname = "Suyash";

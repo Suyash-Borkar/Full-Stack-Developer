@@ -13,7 +13,7 @@ let dt = "2024-01-01";
 let newDate = new Date(dt);
 newDate.setDate(2);
 console.log(newDate);
-let Y = "Set and It's Methods!!"
+let Y = "Set and Methods!!"
 let dateSet = new Set();
             dateSet.add(new Date(2020, 3, 18));
             dateSet.add(new Date(2021, 5, 25));
