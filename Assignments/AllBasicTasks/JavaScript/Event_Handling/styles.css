@@ -1,0 +1,26 @@
+.body{
+    height: 1024pt;
+    width: 1024pt;
+}
+
+.Box1{
+    position: absolute;
+    text-align: center;
+    background-color: #c2a560;
+    width: 300px;
+    border: 14px outset rgb(148 127 78);
+    padding: 50px;
+    margin: 20px;
+    top: 128pt;
+    left: 256pt;
+
+}
+
+.Box1 #mybutton{
+    color: white;
+    background-color: #f91c1ccf;
+    font-family: cursive;
+    font-weight: 549;
+    border: 3pt #f91c1c inset;
+    border-radius: 6pt;
+}
